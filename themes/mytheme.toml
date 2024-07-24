@@ -1,2 +1,2 @@
 inherits = "dark_plus"
-"ui.cursor.primary.insert" = { fg = "base", bg = "#c5e9c5" }
+"ui.cursor.primary.insert" = { fg = "#b5ceb5", modifiers = ["reversed"] }
