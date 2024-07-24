@@ -1,5 +1,5 @@
-# theme = "mytheme"
-theme = "dark_plus" # pretty good theme
+theme = "mytheme"
+# theme = "dark_plus" # pretty good theme
 # theme = "catppuccin_mocha"
 
 [editor]
