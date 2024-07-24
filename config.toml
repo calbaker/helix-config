@@ -1,2 +1,17 @@
-# theme = "dark_plus" # pretty good theme
-theme = "catppuccin_mocha"
+# theme = "mytheme"
+theme = "dark_plus" # pretty good theme
+# theme = "catppuccin_mocha"
+
+[editor]
+# auto-save = true # saves if terminal loses focus
+
+[editor.search]
+# smart-case = false
+
+[editor.soft-wrap]
+enable = true
+
+[editor.auto-save.after-delay]
+enable = true
+timeout = 300
+
