@@ -1,3 +1,4 @@
+# make it so that diagnostics displays clippy hints and not just warnings and errors
 [language-server.rust-analyzer.config]
 check.command = "clippy"
 
