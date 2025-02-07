@@ -11,7 +11,7 @@ theme = "mytheme"
 [editor.soft-wrap]
 enable = true
 
-[editor.auto-save.after-delay]
-enable = true
-timeout = 300
+# [editor.auto-save.after-delay]
+# enable = true
+# timeout = 300
 
