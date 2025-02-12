@@ -2,3 +2,6 @@
 # probably other good tweaks I haven't figured out.  
 inherits = "dark_plus"
 "ui.cursor.primary.insert" = { fg = "#b5ceb5", modifiers = ["reversed"] }
+"ui.cursor.insert" = { fg = "#d9c0b5", modifiers = ["reversed"] }
+# "ui.cursor.primary.select" = { fg = "#aaaaaa", modifiers = ["reversed"] }
+# "ui.cursor.select" = { fg = "#ffffff", modifiers = ["reversed"] }
