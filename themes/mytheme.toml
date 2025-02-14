@@ -1,4 +1,9 @@
 # these settings make it so that the cursor turns grey-green in insert mode.  There are 
 # probably other good tweaks I haven't figured out.  
 inherits = "dark_plus"
-"ui.cursor.primary.insert" = { fg = "#b5ceb5", modifiers = ["reversed"] }
+"ui.cursor.primary" = { fg = "cursor", modifiers = ["reversed"] } 
+"ui.cursor" = { fg = "#c6a0a0", modifiers = ["reversed"] } 
+"ui.cursor.primary.insert" = { fg = "#a0c6a0", modifiers = ["reversed"] }  
+# "ui.cursor.insert" = { fg = "#9ac69a", modifiers = ["reversed"] }
+"ui.cursor.primary.select" = { fg = "#a0a0ef", modifiers = ["reversed"] }
+# "ui.cursor.select" = { fg = "#9a9ac6", modifiers = ["reversed"] }
