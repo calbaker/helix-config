@@ -17,3 +17,6 @@ command = "tinymist"
 [[language]]
 name = "typst"
 language-servers = ["tinymist"]
+
+[language-server]
+julia = { command = "julia", timeout = 60, args = [ "--startup-file=no", "--history-file=no", "--quiet", "-e", "using LanguageServer; runserver()", ] }
