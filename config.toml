@@ -4,6 +4,7 @@ theme = "mytheme"
 
 [editor]
 # auto-save = true # saves if terminal loses focus
+file-picker.hidden = false
 
 [editor.search]
 # smart-case = false

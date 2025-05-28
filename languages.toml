@@ -17,3 +17,7 @@ command = "tinymist"
 [[language]]
 name = "typst"
 language-servers = ["tinymist"]
+       
+[[language]]
+name = "markdown"
+language-servers = ["markdown-oxide"]
