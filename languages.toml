@@ -6,6 +6,10 @@ check.command = "clippy"
 name = "python"
 language-servers = ["ruff", "pylsp"]
 
+[language-server.ruff]
+command = "ruff"
+args = ["server"]
+
 [language-server.pylsp.config.pylsp]
 plugins.pylsp_mypy.enabled = true
 plugins.pylsp_mypy.live_mode = true
